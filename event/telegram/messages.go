@@ -3,7 +3,7 @@ package telegram
 const msgHello = `Hi there! I can fetch and process market data from binance api
 to get some potentially profitable spot arbitrage chains.
 
-!This is not a financial advice. Invest at your own risk!
+! This is not a financial advice. Invest at your own risk !
 
 `
 const (
