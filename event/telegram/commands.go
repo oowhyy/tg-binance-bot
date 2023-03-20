@@ -22,7 +22,7 @@ func (op *Operator) doCommand(text string, chatId int, username string) error {
 	case startCmd:
 		return op.tg.Message(chatId, msgHello+msgHelp)
 	case nameCmd:
-		return op.tg.Message(chatId, "Hello, "+username)
+		return op.tg.Message(chatId, "Hi, "+username)
 	case bnCmd:
 		return op.triangles(chatId)
 	case helpCmd:
